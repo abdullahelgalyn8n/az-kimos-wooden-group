@@ -1,0 +1,6 @@
+{
+  "name": "Kimos Wooden Group — استيراد وتجارة الأخشاب",
+  "description": "الشركة الرائدة في استيراد وتصدير الأخشاب اللينة والصلبة بجميع الدرجات والمقاسات من أمريكا وروسيا وأوروبا وأفريقيا إلى أسواق الشرق الأوسط وشمال أفريقيا والخليج وآسيا.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
