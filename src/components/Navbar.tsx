@@ -201,44 +201,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               ))}
             </nav>
 
-            <span className="opacity-40">|</span>
-
-            {/* Direct URL indicator & copy button */}
-            <div className="inline-flex items-center gap-1.5">
-              <Link2 className="w-3.5 h-3.5 opacity-75 shrink-0" />
-              <span
-                dir="ltr"
-                className={`font-mono-num text-[11px] font-semibold px-2 py-0.5 rounded border ${
-                  darkMode
-                    ? 'bg-[#0E1A0F] border-[#2C442E] text-[#A7F3D0]'
-                    : 'bg-white border-[#C8C4B7] text-[#111F13]'
-                }`}
-              >
-                kimosgroup.com{currentRoute}
-              </span>
-              <button
-                type="button"
-                onClick={handleCopyPageUrl}
-                className={`inline-flex items-center gap-1 px-2 py-0.5 rounded font-semibold transition-colors cursor-pointer ${
-                  darkMode
-                    ? 'bg-[#243826] hover:bg-[#2F4832] text-white'
-                    : 'bg-white hover:bg-[#E4E0D4] text-[#111F13] border border-[#C8C4B7]'
-                }`}
-                title="نسخ الرابط المباشر لهذه الصفحة"
-              >
-                {copiedUrl ? (
-                  <>
-                    <Check className="w-3 h-3 text-emerald-600" />
-                    <span>تم النسخ</span>
-                  </>
-                ) : (
-                  <>
-                    <Copy className="w-3 h-3" />
-                    <span>نسخ الرابط</span>
-                  </>
-                )}
-              </button>
-            </div>
+            
           </div>
 
           {/* Direct Page Switcher & Theme Contrast Switcher */}
